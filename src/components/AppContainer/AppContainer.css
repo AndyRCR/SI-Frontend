@@ -1,0 +1,23 @@
+.appContainer{
+    height: 100vh;
+}
+
+.buttonContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(224, 227, 231);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+button:hover{
+    background-color: #E7EBF0;
+}
